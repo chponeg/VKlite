@@ -38,6 +38,33 @@ class LoginFormViewController: UIViewController {
     
 }
     
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        guard identifier == "LoginSegue" else {
+            return false
+        }
+        
+         let isLoginPasswordCorrect = loginTextField.text == "admin" && passwordTextField.text == "123"
+            
+        if isLoginPasswordCorrect {
+            return true
+        } else {
+            showErrorAlert()
+        }
+                
+        return false
+                }
+           
+    private func showErrorAlert() {
+        let alert = UIAlertController(title: "Ошибка", message: "Введены неверные данные пользователя", preferredStyle: .alert)
+        // Создаем кнопку для UIAlertController
+        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        // Добавляем кнопку на UIAlertController
+        alert.addAction(action)
+        // Показываем UIAlertController
+        present(alert, animated: true, completion: nil)
+    }
+    
     @objc func hideKeyboard() {
             self.scrollView?.endEditing(true)
         }
