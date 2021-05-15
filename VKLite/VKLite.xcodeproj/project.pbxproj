@@ -13,6 +13,11 @@
 		045D2DFE2635EEC600B1B3E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045D2DFD2635EEC600B1B3E2 /* Assets.xcassets */; };
 		045D2E012635EEC600B1B3E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D2DFF2635EEC600B1B3E2 /* LaunchScreen.storyboard */; };
 		045D2E0B2635F82000B1B3E2 /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D2E0A2635F82000B1B3E2 /* LoginFormViewController.swift */; };
+		047E85BF264A82D400BCC4A9 /* UserGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E85BE264A82D400BCC4A9 /* UserGroupTableViewController.swift */; };
+		048B8FA526504659005EC0EB /* UserStruc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B8FA426504659005EC0EB /* UserStruc.swift */; };
+		04CE93EC2645989300566557 /* UsersFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE93EB2645989300566557 /* UsersFriendsTableViewController.swift */; };
+		04CE93EF2645990B00566557 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CE93EE2645990B00566557 /* FriendsTableViewCell.swift */; };
+		04D29B6A26501AAF0025F487 /* AllGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D29B6926501AAF0025F487 /* AllGroupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		045D2E002635EEC600B1B3E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045D2E022635EEC600B1B3E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045D2E0A2635F82000B1B3E2 /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
+		047E85BE264A82D400BCC4A9 /* UserGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupTableViewController.swift; sourceTree = "<group>"; };
+		048B8FA426504659005EC0EB /* UserStruc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStruc.swift; sourceTree = "<group>"; };
+		04CE93EB2645989300566557 /* UsersFriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersFriendsTableViewController.swift; sourceTree = "<group>"; };
+		04CE93EE2645990B00566557 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		04D29B6926501AAF0025F487 /* AllGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				045D2DF42635EEC200B1B3E2 /* AppDelegate.swift */,
-				045D2E0A2635F82000B1B3E2 /* LoginFormViewController.swift */,
 				045D2DF62635EEC200B1B3E2 /* SceneDelegate.swift */,
+				045D2E0A2635F82000B1B3E2 /* LoginFormViewController.swift */,
 				045D2DFA2635EEC200B1B3E2 /* Main.storyboard */,
+				04CE93EB2645989300566557 /* UsersFriendsTableViewController.swift */,
+				04CE93EE2645990B00566557 /* FriendsTableViewCell.swift */,
+				047E85BE264A82D400BCC4A9 /* UserGroupTableViewController.swift */,
+				04D29B6926501AAF0025F487 /* AllGroupViewController.swift */,
+				048B8FA426504659005EC0EB /* UserStruc.swift */,
 				045D2DFD2635EEC600B1B3E2 /* Assets.xcassets */,
 				045D2DFF2635EEC600B1B3E2 /* LaunchScreen.storyboard */,
 				045D2E022635EEC600B1B3E2 /* Info.plist */,
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE93EC2645989300566557 /* UsersFriendsTableViewController.swift in Sources */,
 				045D2E0B2635F82000B1B3E2 /* LoginFormViewController.swift in Sources */,
+				048B8FA526504659005EC0EB /* UserStruc.swift in Sources */,
 				045D2DF52635EEC200B1B3E2 /* AppDelegate.swift in Sources */,
+				04D29B6A26501AAF0025F487 /* AllGroupViewController.swift in Sources */,
+				04CE93EF2645990B00566557 /* FriendsTableViewCell.swift in Sources */,
+				047E85BF264A82D400BCC4A9 /* UserGroupTableViewController.swift in Sources */,
 				045D2DF72635EEC200B1B3E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
